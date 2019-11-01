@@ -1,16 +1,350 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MVC2Framework:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="73590f6c-9e4a-489b-8af9-e3a0320a03f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/mum/edu/controller/CalculatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/mum/edu/domain/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/mum/edu/validator/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/mum/edu/validator/ValidatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/calculator.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/calculator.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/classes/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/classes/mum/edu/controller/CalculatorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/classes/mum/edu/domain/Calculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/classes/mum/edu/framework/ConfigureServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/classes/mum/edu/framework/ControllerMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/classes/mum/edu/framework/DispatcherServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/classes/mum/edu/framework/SequencedProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/classes/mum/edu/framework/Singleton$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/classes/mum/edu/framework/Singleton$SingletonHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/classes/mum/edu/framework/Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/classes/mum/edu/framework/annotation/AutoWired.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/classes/mum/edu/framework/annotation/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/classes/mum/edu/framework/annotation/ProcessAnnotations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/classes/mum/edu/framework/annotation/RequestMapping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/classes/mum/edu/framework/factory/ControllerFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/classes/mum/edu/framework/factory/DomainObjectFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/classes/mum/edu/framework/factory/InjectionFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/classes/mum/edu/validator/Validator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/classes/mum/edu/validator/ValidatorImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/lib/servlet-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC2Framework/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mum/edu/controller/CalculatorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mum/edu/domain/Calculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mum/edu/framework/ConfigureServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mum/edu/framework/ControllerMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mum/edu/framework/DispatcherServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mum/edu/framework/SequencedProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mum/edu/framework/Singleton$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mum/edu/framework/Singleton$SingletonHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mum/edu/framework/Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mum/edu/framework/annotation/AutoWired.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mum/edu/framework/annotation/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mum/edu/framework/annotation/ProcessAnnotations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mum/edu/framework/annotation/RequestMapping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mum/edu/framework/factory/ControllerFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mum/edu/framework/factory/DomainObjectFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mum/edu/framework/factory/InjectionFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mum/edu/validator/Validator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mum/edu/validator/ValidatorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC2Framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MVC2Framework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/mum/edu/framework/factory/DomainObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/mum/edu/framework/factory/DomainObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC2Framework/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC2Framework/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC2Framework/.settings/.jsdtscope" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC2Framework/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC2Framework/.settings/org.eclipse.wst.common.component" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC2Framework/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC2Framework/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC2Framework/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC2Framework/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC2Framework/WebContent/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC2Framework/build/classes/mum/edu/framework/ConfigureServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC2Framework/build/classes/mum/edu/framework/ControllerMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC2Framework/build/classes/mum/edu/framework/DispatcherServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC2Framework/build/classes/mum/edu/framework/SequencedProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC2Framework/build/classes/mum/edu/framework/Singleton$SingletonHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC2Framework/build/classes/mum/edu/framework/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC2Framework/build/classes/mum/edu/framework/annotation/AutoWired.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC2Framework/build/classes/mum/edu/framework/annotation/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC2Framework/build/classes/mum/edu/framework/annotation/ProcessAnnotations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC2Framework/build/classes/mum/edu/framework/annotation/RequestMapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC2Framework/build/classes/mum/edu/framework/factory/ControllerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC2Framework/build/classes/mum/edu/framework/factory/DomainObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC2Framework/build/classes/mum/edu/framework/factory/InjectionFactory.class" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="pluginUpdatePolicy" value="UPDATE" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1SyDjh9OoINsjG0yL735y8Uupeg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/java/mum/edu/framework/annotation" />
+      <recent name="$PROJECT_DIR$/src/java/mum/edu/framework/factory" />
+      <recent name="$PROJECT_DIR$/src/java/mum/edu/framework" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Run" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.241" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="MVC2Framework:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_MVC2Framework" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49466" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="MVC2Framework:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="MVC2Framework:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_MVC2Framework" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49466" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="MVC2Framework:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73590f6c-9e4a-489b-8af9-e3a0320a03f5" name="Default Changelist" comment="" />
+      <created>1572527078954</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572527078954</updated>
+      <workItem from="1572527080815" duration="13518000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

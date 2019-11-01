@@ -1,7 +1,7 @@
 package mum.edu.framework.factory;
 
  
-public class DomainObjectFactory {
+public class  DomainObjectFactory {
 
 	private DomainObjectFactory() {
 		
