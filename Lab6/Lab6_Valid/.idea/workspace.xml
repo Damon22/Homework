@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="80d0a181-9ffb-4be7-a22c-dc1411957fb1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/src/main/java/edu/mum/config/DispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/src/main/java/edu/mum/config/RootApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/src/main/java/edu/mum/config/WebApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/src/main/java/edu/mum/controller/CalculatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/src/main/java/edu/mum/domain/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/src/main/java/edu/mum/validator/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/src/main/java/edu/mum/validator/ValidatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/src/main/webapp/WEB-INF/config/springmvc-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/src/main/webapp/WEB-INF/jsp/calculator.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/src/main/webapp/WEB-INF/jsp/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/classes/edu/mum/config/DispatcherServletInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/classes/edu/mum/config/RootApplicationContextConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/classes/edu/mum/config/WebApplicationContextConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/classes/edu/mum/controller/CalculatorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/classes/edu/mum/domain/Calculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/classes/edu/mum/validator/Validator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/classes/edu/mum/validator/ValidatorImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/product_springmvc.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/product_springmvc/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/product_springmvc/WEB-INF/classes/edu/mum/config/DispatcherServletInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/product_springmvc/WEB-INF/classes/edu/mum/config/RootApplicationContextConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/product_springmvc/WEB-INF/classes/edu/mum/config/WebApplicationContextConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/product_springmvc/WEB-INF/classes/edu/mum/controller/CalculatorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/product_springmvc/WEB-INF/classes/edu/mum/domain/Calculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/product_springmvc/WEB-INF/classes/edu/mum/validator/Validator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/product_springmvc/WEB-INF/classes/edu/mum/validator/ValidatorImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/product_springmvc/WEB-INF/config/springmvc-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/product_springmvc/WEB-INF/jsp/calculator.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/product_springmvc/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/product_springmvc/WEB-INF/jsp/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/product_springmvc/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/product_springmvc/WEB-INF/lib/spring-aop-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/product_springmvc/WEB-INF/lib/spring-beans-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/product_springmvc/WEB-INF/lib/spring-context-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/product_springmvc/WEB-INF/lib/spring-core-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/product_springmvc/WEB-INF/lib/spring-expression-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/product_springmvc/WEB-INF/lib/spring-jcl-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/product_springmvc/WEB-INF/lib/spring-web-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/target/product_springmvc/WEB-INF/lib/spring-webmvc-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/Starbuck.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/java/edu/mum/config/DispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/java/edu/mum/config/RootApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/java/edu/mum/config/WebApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/java/edu/mum/controller/AdviceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/java/edu/mum/controller/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/java/edu/mum/data/DataFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/java/edu/mum/data/DataFacadeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/java/edu/mum/data/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/java/edu/mum/data/TestDataImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/java/edu/mum/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/webapp/WEB-INF/advice.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/webapp/WEB-INF/display.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/webapp/WEB-INF/loginSuccessful.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/advice.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/classes/edu/mum/config/DispatcherServletInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/classes/edu/mum/config/RootApplicationContextConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/classes/edu/mum/config/WebApplicationContextConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/classes/edu/mum/controller/AdviceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/classes/edu/mum/controller/AuthenticationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/classes/edu/mum/data/DataFacade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/classes/edu/mum/data/DataFacadeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/classes/edu/mum/data/Database.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/classes/edu/mum/data/TestDataImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/classes/edu/mum/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/display.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/lib/spring-aop-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/lib/spring-beans-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/lib/spring-context-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/lib/spring-core-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/lib/spring-expression-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/lib/spring-jcl-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/lib/spring-web-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/lib/spring-webmvc-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/loginSuccessful.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/classes/edu/mum/config/DispatcherServletInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/classes/edu/mum/config/RootApplicationContextConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/classes/edu/mum/config/WebApplicationContextConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/classes/edu/mum/controller/AdviceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/classes/edu/mum/controller/AuthenticationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/classes/edu/mum/data/DataFacade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/classes/edu/mum/data/DataFacadeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/classes/edu/mum/data/Database.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/classes/edu/mum/data/TestDataImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/classes/edu/mum/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/ProdctMVCMethod.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/src/main/java/edu/mum/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/src/main/java/edu/mum/domain/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/src/main/java/edu/mum/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/src/main/java/edu/mum/formatter/CategoryFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/src/main/java/edu/mum/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/src/main/java/edu/mum/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/src/main/java/edu/mum/repositoryimpl/CategoryRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/src/main/java/edu/mum/repositoryimpl/ProductRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/src/main/java/edu/mum/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/src/main/java/edu/mum/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/src/main/java/edu/mum/serviceimpl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/src/main/java/edu/mum/serviceimpl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/src/main/resources/messages-cn.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/src/main/webapp/WEB-INF/config/springmvc-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/src/main/webapp/WEB-INF/jsp/ListProducts.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/src/main/webapp/WEB-INF/jsp/ProductDetails.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/src/main/webapp/WEB-INF/jsp/ProductForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/src/main/webapp/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab5/Starbuck/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab5/Starbuck/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab5/Starbuck/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab5/Starbuck/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab5/Starbuck/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab5/Starbuck/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab5/Starbuck/src/main/java/edu/mum/config/DispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab5/Starbuck/src/main/java/edu/mum/config/RootApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab5/Starbuck/src/main/java/edu/mum/config/WebApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab5/Starbuck/src/main/java/edu/mum/controller/AdviceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab5/Starbuck/src/main/java/edu/mum/controller/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab5/Starbuck/src/main/java/edu/mum/data/DataFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab5/Starbuck/src/main/java/edu/mum/data/DataFacadeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab5/Starbuck/src/main/java/edu/mum/data/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab5/Starbuck/src/main/java/edu/mum/data/TestDataImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab5/Starbuck/src/main/java/edu/mum/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab5/Starbuck/src/main/webapp/WEB-INF/advice.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab5/Starbuck/src/main/webapp/WEB-INF/display.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab5/Starbuck/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab5/Starbuck/src/main/webapp/WEB-INF/loginSuccessful.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab6_Valid.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab1/Starbucks_Model1/Starbucks_Model1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2/MVC2Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab2/MVC2Framework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2/MVC2Framework/MVC2Framework.iml" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TDC1T1JRkDYCfd4QH9bB3yN3Vw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80d0a181-9ffb-4be7-a22c-dc1411957fb1" name="Default Changelist" comment="" />
+      <created>1572985063863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572985063863</updated>
+      <workItem from="1572985066038" duration="2645000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

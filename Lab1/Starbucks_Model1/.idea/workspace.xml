@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="MVC2Framework:war" />
+      <artifact name="Starbucks_Model1:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73590f6c-9e4a-489b-8af9-e3a0320a03f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Calculator/Calculator.iml" afterDir="false" />
+    <list default="true" id="44ea31e2-4012-43e8-8465-85dcb601db58" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Lab3/Calculator/.idea/misc.xml" afterDir="false" />
@@ -62,10 +61,62 @@
       <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/Starbuck.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC2Framework.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/java/edu/mum/config/DispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/java/edu/mum/config/RootApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/java/edu/mum/config/WebApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/java/edu/mum/controller/AdviceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/java/edu/mum/controller/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/java/edu/mum/data/DataFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/java/edu/mum/data/DataFacadeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/java/edu/mum/data/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/java/edu/mum/data/TestDataImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/java/edu/mum/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/webapp/WEB-INF/advice.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/webapp/WEB-INF/display.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/src/main/webapp/WEB-INF/loginSuccessful.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/advice.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/classes/edu/mum/config/DispatcherServletInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/classes/edu/mum/config/RootApplicationContextConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/classes/edu/mum/config/WebApplicationContextConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/classes/edu/mum/controller/AdviceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/classes/edu/mum/controller/AuthenticationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/classes/edu/mum/data/DataFacade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/classes/edu/mum/data/DataFacadeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/classes/edu/mum/data/Database.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/classes/edu/mum/data/TestDataImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/classes/edu/mum/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/display.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/lib/spring-aop-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/lib/spring-beans-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/lib/spring-context-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/lib/spring-core-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/lib/spring-expression-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/lib/spring-jcl-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/lib/spring-web-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/lib/spring-webmvc-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/Starbuck/WEB-INF/loginSuccessful.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/classes/edu/mum/config/DispatcherServletInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/classes/edu/mum/config/RootApplicationContextConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/classes/edu/mum/config/WebApplicationContextConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/classes/edu/mum/controller/AdviceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/classes/edu/mum/controller/AuthenticationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/classes/edu/mum/data/DataFacade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/classes/edu/mum/data/DataFacadeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/classes/edu/mum/data/Database.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/classes/edu/mum/data/TestDataImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/Starbuck/target/classes/edu/mum/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab4/ProdctMVCMethod/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks_Model1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2/MVC2Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab2/MVC2Framework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2/MVC2Framework/MVC2Framework.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,13 +127,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -92,19 +149,13 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="alwaysUpdateSnapshots" value="true" />
-        <option name="pluginUpdatePolicy" value="UPDATE" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1SyDjh9OoINsjG0yL735y8Uupeg" />
+  <component name="ProjectId" id="1SrH1Qf54ENwCS0A8raO3RFn7kF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -122,14 +173,15 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/src/java/mum/edu/framework/annotation" />
-      <recent name="$PROJECT_DIR$/src/java/mum/edu/framework/factory" />
-      <recent name="$PROJECT_DIR$/src/java/mum/edu/framework" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/java/mum/edu/cs" />
+      <recent name="$PROJECT_DIR$/src/java/mum/edu/data" />
+      <recent name="$PROJECT_DIR$/src/java/mum/edu/listener" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -145,17 +197,18 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Run" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.241" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat 9.0.241" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.241" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Starbucks_Model1_war/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="MVC2Framework:war">
+        <artifact name="Starbucks_Model1:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/" />
+            <option name="CONTEXT_PATH" value="/Starbucks_Model1_war" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_MVC2Framework" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Starbucks_Model1" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -163,7 +216,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="49466" />
+        <option name="DEBUG_PORT" value="52105" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -213,79 +266,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="MVC2Framework:war" />
-        </option>
-      </method>
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="MVC2Framework:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_MVC2Framework" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="49466" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="MVC2Framework:war" />
+          <artifact name="Starbucks_Model1:war" />
         </option>
       </method>
     </configuration>
@@ -295,13 +276,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="73590f6c-9e4a-489b-8af9-e3a0320a03f5" name="Default Changelist" comment="" />
-      <created>1572527078954</created>
+      <changelist id="44ea31e2-4012-43e8-8465-85dcb601db58" name="Default Changelist" comment="" />
+      <created>1572314578309</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572527078954</updated>
-      <workItem from="1572527080815" duration="13518000" />
-      <workItem from="1572794312298" duration="6058000" />
+      <updated>1572314578309</updated>
+      <workItem from="1572314581554" duration="3308000" />
+      <workItem from="1572319895591" duration="4177000" />
+      <workItem from="1572389308214" duration="1290000" />
+      <workItem from="1572406246311" duration="11968000" />
+      <workItem from="1572821227018" duration="1945000" />
     </task>
     <servers />
   </component>
